@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site Map</title>
+</head>
+<body style="margin: 0; 
+            padding: 0; 
+            background-image: url(beground/a.jpeg); /* Gambar latar dari folder 'beground' */
+            background-size: cover; /* Agar gambar menutupi seluruh layar */
+            background-position: center; /* Posisi gambar di tengah */
+            font-family: Cambria;"> <!-- Font teks -->
+
+    <!-- Kontainer utama yang memusatkan isi di tengah layar -->
+    <div style="width: 100%;
+                height: 100vh; /* Mengatur tinggi menjadi 100% dari tinggi layar */
+                display: flex; /* Menggunakan Flexbox */
+                justify-content: center; /* Posisi horizontal di tengah */
+                align-items: center;"> <!-- Posisi vertikal di tengah -->
+        
+    <!-- Kotak transparan semi-putih dengan efek blur -->
+    <div style="background-color: rgba(255, 255, 255, 0.2); /* Warna putih transparan */
+                padding: 40px; 
+                border-radius: 20px; /* Sudut membulat */
+                text-align: center; 
+                backdrop-filter: blur(5px);"> <!-- Efek blur pada latar belakang -->
+
+    <!-- Judul di dalam kotak putih kecil -->
+    <div style="background-color: white; 
+                padding: 10px 30px; 
+                border-radius: 15px; 
+                display: inline-block;"> <!-- Agar hanya selebar kontennya -->
+        <h1 style="color: purple; 
+                    margin: 0; 
+                    font-size: 30px;">SITE MAP</h1> <!-- Teks Judul -->
+    </div>
+
+    <!-- Tombol navigasi: HOME, ABOUT, CONTACT -->
+    <div style="margin-top: 30px; 
+                display: flex; 
+                justify-content: center; 
+                gap: 20px;"> <!-- Jarak antar tombol 20px -->
+
+    <!-- Tombol HOME -->
+    <a href="home.html" style="text-decoration: none;"> <!-- Mengarah ke home.html -->
+        <button style="background-color: white; 
+                        color: hotpink; 
+                        border: none; 
+                        padding: 10px 25px; 
+                        border-radius: 8px; 
+                        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+                        font-weight: bold;">home</button>
+    </a>
+
+    <!-- Tombol ABOUT -->
+    <a href="about.html" style="text-decoration: none;"> <!-- Mengarah ke about.html -->
+        <button style="background-color: white; 
+                        color: hotpink; 
+                        border: none; 
+                        padding: 10px 25px; 
+                        border-radius: 8px; 
+                        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+                        font-weight: bold;">about</button>
+    </a>
+
+    <!-- Tombol CONTACT -->
+    <a href="contact.html" style="text-decoration: none;"> <!-- Mengarah ke contact.html -->
+        <button style="background-color: white; 
+                        color: hotpink; 
+                        border: none; 
+                        padding: 10px 25px; 
+                        border-radius: 8px; 
+                        box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+                        font-weight: bold;">contact</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
